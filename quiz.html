@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="quest.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+  </head>
+  <body id="quizz">
+    <section id="title">
+      <div class="container-fluid">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <a class="navbar-brand" href="#">ADOPT A PET</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+
+  </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">  <a class="nav-link" href="index.html"> Home </a> </li>
+
+     </ul>
+</div></div>
+</section>
+    <section id="form">
+      <h2><b><center>Adoption form</center></b></h2>
+      <h6><center>Fill in this form and we will contact you if you're eligible to adopt a pet!</center></h6>
+
+    <form action="https://formspree.io/moqjooqz" method="POST">
+      <label> <b>Name:</b><br> <input type="text" name="Name"> </label> <br>
+      <label><b> Mobile Number:</b><br> <input type="text" name="mobno"> </label> <br>
+      <label><b> Email:</b><br> <input type="text" name="email"> </label> <br>
+      <label><b> Home Address:</b><br> <input type="text" name="adress"> </label> <br>
+
+<div class="form-group">
+    <label for="exampleFormControlSelect1"><b>Do you have your own house?</b></label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+  </div>
+
+
+  <div class="form-group">
+    <label for="exampleFormControlFile1"><b>Upload pictures of your house.</b></label>
+    <input type="file" class="form-control-file" id="exampleFormControlFile1">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><b>Have you had a pet before?</b></label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option>Yes</option>
+      <option>No</option>
+    </select>
+  </div>
+
+  <div class="form-group">
+    <label for="formControlRange"><b>How willing are you to take a pet with disabilities/special needs?</b></label>
+    <input type="range" class="form-control-range" id="formControlRange">
+  </div>
+
+  <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0"><b>How much are you willing to spend for your pet?</b></legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Amount to spend" id="gridRadios1" value="less than 5k" checked>
+          <label class="form-check-label" for="gridRadios1">
+            less than 5k/month
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Amount to spend" id="gridRadios2" value="5k-15k">
+          <label class="form-check-label" for="gridRadios2">
+            5k-15k/month
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="Amount to spend" id="gridRadios2" value="more than 15k">
+          <label class="form-check-label" for="gridRadios2">
+            more than 15k/month
+          </label>
+        </div>
+        </div>
+        </div>
+
+<br>
+
+<center><button type="submit" class="btn btn-primary">Submit</button></center>
+
+</form>
+</section>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

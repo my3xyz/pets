@@ -1,0 +1,56 @@
+.navbar-brand{
+  font-family:'Ubuntu', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-top: 1rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+  }
+
+#whyadopt{
+  padding-top: 6rem;
+  padding-left: 4rem;
+  background-color: #F8F9FA;
+  padding-bottom: 2rem;
+  }
+
+#dogs,#cats{
+  padding-top: 5rem;
+  padding-left: 6rem;
+}
+
+.breeds{
+  padding: 2rem;
+}
+#contact{
+  padding: 2rem;
+  background-color: #F8F9FA;
+}
+
+.fa{
+  padding: 0.5rem;
+  padding-top: 1rem;
+}
+
+a:link {
+color: white;
+}
+
+#form{
+  padding: 4rem;
+  padding-right: 7rem;
+}
+
+#quizz{height:100%;
+   background-color: #F8F9FA;
+}
+#whyadopt,#cats,#contact, #dogs {
+position: relative;
+overflow-x: hidden;
+}

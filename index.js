@@ -1,0 +1,1 @@
+$('#contact').popover('show')
